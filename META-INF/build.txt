@@ -1,0 +1,7 @@
+originType=cmd
+toolkit=2.0.0
+timeStamp=2025-04-17T09:46:44.650Z
+node=v22.14.0
+platform=win32
+arch=x64
+app:app=45b77fe2ce6587319cfce78f7f8a67f7c2fbbd88cc58532a39afa1b6795cefa0

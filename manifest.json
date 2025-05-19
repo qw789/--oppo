@@ -1,0 +1,86 @@
+{
+  "package": "com.cchl.Winnersofknowledge",
+  "name": "知识赢家",
+  "versionName": "1.3.1",
+  "versionCode": 31,
+  "minPlatformVersion": 1100,
+  "icon": "/assets/images/logo.webp",
+  "features": [
+    {"name": "system.prompt"},
+    {"name": "system.network"},
+    {"name": "system.router"},
+    {"name": "system.fetch"},
+    {"name": "system.webview"},
+    {"name": "system.request"},
+    {"name": "system.device"},
+    {"name": "system.package"},
+    {"name": "system.storage"},
+    {"name": "service.account"},
+    {"name": "system.file"},
+    {"name": "system.animate"},
+    {"name": "system.sensor"},
+    {"name": "system.image"},
+    {"name": "system.shortcut"},
+    {"name": "service.ad"},
+    {"name": "system.share"},
+    {"name": "system.battery"},
+    {"name": "system.geolocation"},
+    {"name": "system.media"},
+    {"name": "system.clipboard"},
+    {"name": "system.brightness"}
+  ],
+  "permissions": [{"origin": "*"}],
+  "template/official": "demo-template",
+  "config": {"logLevel": "debug", "debug": false},
+  "router": {
+    "entry": "pages/deepLink",
+    "pages": {
+      "pages/Nav": {"component": "index"},
+      "pages/answer": {"component": "index"},
+      "pages/tabbar": {"component": "index"},
+      "pages/tabbar/challenge": {"component": "index"},
+      "pages/tabbar/jinbi": {"component": "index"},
+      "pages/tabbar/my": {"component": "index"},
+      "pages/rankingList": {"component": "index"},
+      "pages/deepLink": {"component": "index", "launchMode": "singleTask"},
+      "pages/CustomerService/main": {"component": "index"},
+      "pages/CustomerService/detail": {"component": "index"},
+      "pages/toolbox": {"component": "index"}
+    },
+    "widgets": {}
+  },
+  "display": {
+    "titleBarBackgroundColor": "#f2f2f2",
+    "titleBarTextColor": "#414141",
+    "orientation": "portrait",
+    "fullScreen": true,
+    "titleBar": false,
+    "themeMode": 0,
+    "pages": {
+      "pages/Nav": {
+        "titleBarText": "知识赢家",
+        "titleBarBackgroundColor": "#557EDE",
+        "titleBarTextColor": "#ffffff"
+      },
+      "pages/answer": {"titleBarText": "问答"},
+      "pages/tabbar": {"titleBarText": "答题"},
+      "pages/tabbar/challenge": {"titleBarText": "挑战"},
+      "pages/tabbar/jinbi": {"titleBarText": "金币"},
+      "pages/tabbar/my": {"titleBarText": "我的"},
+      "pages/achievement": {"titleBarText": "成就勋章"},
+      "pages/rankingList": {"titleBarText": "排行榜"},
+      "pages/CustomerService/main": {"titleBarText": "帮助中心"},
+      "pages/CustomerService/detail": {"titleBarText": "详情页"},
+      "pages/deepLink": {"titleBarText": ""}
+    }
+  },
+  "subpackages": [],
+  "packageInfo": {
+    "originType": "cmd",
+    "toolkit": "2.0.0",
+    "timeStamp": "2025-04-17T09:46:44.650Z",
+    "node": "v22.14.0",
+    "platform": "win32",
+    "arch": "x64"
+  }
+}
